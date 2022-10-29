@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    
+
+    <title>Carrinho</title>
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="container">
+            <div class="flex-box">
+                <a href="./index.html" target="_parent" class="logo">
+                    <img src="./imagens/pato-dev.png" alt="pato dev festival">
+                </a>
+                
+                <nav class="menu">
+                    <ul>
+                        <li>
+                            <a href="./index.html#sobre">Sobre</a>
+                        </li>
+                    </ul>
+        
+                    <a  class="btn outline" href="./carrinho.html" target="_parent">
+                        Quero meu ingresso!
+                    </a>
+        
+                    <button>
+                        <img src="./imagens/Vector.png" alt="modo diurno">
+                    </button>
+                </nav>
+            </div>   
+        </div>
+    </header>
+
+    <section    id="carrinho">
+        <div class="container">
+            <div class="flex-box">
+                <div class="left">
+                    <h1 class="titulo two">Finalizar a compra</h1>
+
+                    <ul class="ticket-list">
+                        <li class="ticket">
+                            <h3 class="titulo four">Ingresso para o Kenzie Music Festival</h3>
+            
+                                <div class="price">
+                                    <div class="controls">
+                                        <button id="remove-ticket">-</button>
+                                        <span id="ticket">1</span>
+                                        <button id="add-ticket">+</button>
+                                    </div>
+            
+                                    <p class="titulo three">R$ <span id="ticket-price">90</span>,00 Valor total</p>
+            
+                                </div>
+                        </li>
+                    </ul>
+                </div>
+                    <div class="right">
+                        <div>
+                            <h2 class="titulo three pad20-bottom">Preencha os campos</h2>
+                            <form class="form" id="cart-form">
+                                <input type="text" name="nome"  id="nome" placeholder="Seu nome">
+                                <input type="email" name="email" id="email" placeholder="Seu e-mail">
+            
+                                <button class="btn solid" type="submit" id="buy-button">Finalizar a compra</button>
+                            </form>
+                        
+                        </div>
+                    </div>
+                </div>  
+            </div>
+    </section>
+    
+</body>
+
+<script src="./index.js"></script>
+<script src="./ticket.js"></script>
+
+</html>

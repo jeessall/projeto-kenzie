@@ -1,0 +1,334 @@
+
+
+body {
+    background-color: #01011c;
+}
+
+.pad10-top {
+    padding-top: 10px;
+}
+
+.pad20-top {
+    padding-top: 20px;
+}
+
+.pad30-top {
+    padding-top: 30px;
+}
+
+.pad10-bottom {
+    padding-bottom: 10px;
+}
+
+.pad20-bottom {
+    padding-bottom: 20px;
+}
+
+.pad30-bottom {
+    padding-bottom: 30px;
+}
+
+#cabecalho {
+    background: #01011c;
+}
+
+#cabecalho .menu ul a {
+    font-family: Poppins;
+    font-weight: 400px;
+    font-size: 19px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+#cabecalho .flex-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#cabecalho .flex-box nav {
+    display:flex;
+    align-items: center;
+    gap: 36px;
+    
+}
+
+
+#cabecalho .flex-box .logo img {
+    max-width: 170px;
+
+}
+
+
+.titulo {
+    font-family: Poppins;
+    line-height: 1.1;
+    color: #FFFFFF;
+}
+.titulo.one {
+    font-size: 90px;
+    font-weight: 700px;
+}
+
+.titulo.two {
+    font-size: 60px;
+    font-weight: 700px;
+}
+
+.titulo.threehalf {
+    font-size: 28px;
+    font-weight: 700px;
+}
+
+.titulo.three {
+    padding-top: 20px;
+    font-size: 24px;
+    font-weight: 600px;
+}
+
+.titulo.four {
+    font-size: 24px;
+    font-weight: 600px;
+}
+
+.titulo-center {
+    text-align: center;
+}
+
+.content-box p {
+    font-family: Poppins;
+    font-size: 19px;
+    font-weight: 400px;
+    color: #FFFFFF;
+}
+
+.blue-text {
+    color: #0000FF;
+}
+
+.light-blue {
+    color: #a5a5ff;
+}
+
+/*formatação dos botões*/
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 700px;
+    width: 300px;
+    height: 60px;
+    border-radius: 255px;
+    transition: 0.4s;
+
+}
+
+.btn:hover {
+    filter: brightness(1.2);
+}
+
+.btn.solid {
+   background: #0000FF;
+   color: #FFFFFF;
+   border: 2px solid #0000FF;
+}
+
+.btn.solid:hover {
+    background: #4a4ad4;
+    filter: brightness(1.3);
+    border-color: #4a4ad4;
+}
+
+.btn.outline {
+    background: transparent;
+    color: #a5a5ff;
+    border: 2px solid #a5a5ff
+ }
+
+ .btn.outline:hover {
+    background: #a5a5ff;
+    filter: brightness(1.2);
+    color: #FFFFFF;
+}
+
+.container {
+    padding: 10px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*sections*/
+
+#principal {
+    padding-top: 30px;
+}
+
+#principal .flex-box {
+    display: flex;
+    align-items: center;
+    gap: 75px;
+}
+
+#sobre {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+#sobre .flex-box {
+    display: flex;
+    align-items: center;
+    gap: 75px;
+    
+
+}
+
+#sobre .flex-box .left,
+#sobre .flex-box .right {
+    width: 100%;
+}
+
+#sobre .flex-box .left img {
+    width: 100%;
+}
+
+#artistas {
+    padding: 50px;
+}
+
+#artistas .artistas-lista {
+    display: flex;
+    gap: 18px;
+    padding-left: 15%;
+}
+
+/*pagina final*/
+
+#finalizacao {
+    padding: 50px 0;
+}
+
+#finalizacao .flex-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#finalizacao .flex-box .ticket {
+    position: relative;
+    min-width: 700px;
+    min-height: 370px;
+    border: 1px solid #0000FF;;
+    border-left-width: 100px;
+    padding: 40px;
+}
+
+#finalizacao .flex-box .ticket img {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+#finalizacao .flex-box .ticket .quantity-box {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ffffff;
+}
+
+/*estilizando carrinho*/
+
+#carrinho {
+    padding: 50px 0;
+}
+
+#carrinho  .flex-box {
+    display: flex;
+    gap: 40px;
+}
+
+#carrinho  .flex-box .left,
+#carrinho  .flex-box .right {
+    width: 100%;
+}
+   
+#carrinho  .flex-box .right {
+    max-width: 300px;
+}
+
+#carrinho  .flex-box .ticket-list {
+    margin-top: 30px;
+
+}
+
+#carrinho  .flex-box .ticket-list .ticket {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    border: 1px solid #a5a5ff
+}
+
+
+#carrinho  .flex-box .ticket-list .ticket .controls {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+#carrinho  .flex-box .ticket-list .ticket .controls button {
+    font-family: Poppins;
+    font-size: 17px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 29px;
+    height: 29px;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+}
+
+#carrinho  .flex-box .ticket-list .ticket .controls span {
+    font-family: Poppins;
+    font-size: 19px;
+    font-weight: 700px;
+    color: #a5a5ff;
+}
+
+#carrinho  .flex-box .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#carrinho  .flex-box .form input {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400px;
+    background: transparent;
+    padding: 0 20px;
+    height: 54px;
+    border: 1px solid #a5a5ff;
+    border-radius: 255px;
+}
+
+#carrinho  .flex-box .form button {
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
